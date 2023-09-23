@@ -24,7 +24,7 @@ To use bindings from this package:
 (import :clan/db/lmdb)
 ```
 
-## lmdb-error?
+### lmdb-error?
 
 ```
 (lmdb-error? ...)
@@ -33,7 +33,7 @@ To use bindings from this package:
 
 Please document me!
 
-## lmdb-env?
+### lmdb-env?
 
 ```
 (lmdb-env? ...)
@@ -42,7 +42,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-db?
+### lmdb-db?
 
 ```
 (lmdb-db? ...)
@@ -51,7 +51,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-db-env
+### lmdb-db-env
 
 ```
 (lmdb-db-env ...)
@@ -60,7 +60,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-db-name
+### lmdb-db-name
 
 ```
 (lmdb-db-name ...)
@@ -69,7 +69,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-txn?
+### lmdb-txn?
 
 ```
 (lmdb-txn? ...)
@@ -78,7 +78,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-txn-env
+### lmdb-txn-env
 
 ```
 (lmdb-txn-env ...)
@@ -87,7 +87,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-cursor?
+### lmdb-cursor?
 
 ```
 (lmdb-cursor? ...)
@@ -96,7 +96,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-cursor-txn
+### lmdb-cursor-txn
 
 ```
 (lmdb-cursor-txn ...)
@@ -105,7 +105,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-cursor-db
+### lmdb-cursor-db
 
 ```
 (lmdb-cursor-db ...)
@@ -114,7 +114,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-open
+### lmdb-open
 
 ```
 (lmdb-open ...)
@@ -123,7 +123,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-sync
+### lmdb-sync
 
 ```
 (lmdb-sync ...)
@@ -132,7 +132,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-close
+### lmdb-close
 
 ```
 (lmdb-close ...)
@@ -141,7 +141,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-stat
+### lmdb-stat
 
 ```
 (lmdb-stat ...)
@@ -150,7 +150,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-open-db
+### lmdb-open-db
 
 ```
 (lmdb-open-db ...)
@@ -159,7 +159,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-close-db
+### lmdb-close-db
 
 ```
 (lmdb-close-db ...)
@@ -168,7 +168,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-db-stat
+### lmdb-db-stat
 
 ```
 (lmdb-db-stat ...)
@@ -177,7 +177,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-db-drop
+### lmdb-db-drop
 
 ```
 (lmdb-db-drop ...)
@@ -186,7 +186,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-txn-begin
+### lmdb-txn-begin
 
 ```
 (lmdb-txn-begin ...)
@@ -195,7 +195,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-txn-id
+### lmdb-txn-id
 
 ```
 (lmdb-txn-id ...)
@@ -204,7 +204,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-txn-commit
+### lmdb-txn-commit
 
 ```
 (lmdb-txn-commit ...)
@@ -213,7 +213,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-txn-abort
+### lmdb-txn-abort
 
 ```
 (lmdb-txn-abort ...)
@@ -222,7 +222,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-txn-reset
+### lmdb-txn-reset
 
 ```
 (lmdb-txn-reset ...)
@@ -231,7 +231,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-txn-renew
+### lmdb-txn-renew
 
 ```
 (lmdb-txn-renew ...)
@@ -240,7 +240,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-get
+### lmdb-get
 
 ```
 (lmdb-get ...)
@@ -249,7 +249,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-put
+### lmdb-put
 
 ```
 (lmdb-put ...)
@@ -258,7 +258,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-del
+### lmdb-del
 
 ```
 (lmdb-del ...)
@@ -267,7 +267,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-cursor-open
+### lmdb-cursor-open
 
 ```
 (lmdb-cursor-open ...)
@@ -276,7 +276,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-cursor-close
+### lmdb-cursor-close
 
 ```
 (lmdb-cursor-close ...)
@@ -285,7 +285,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-cursor-renew
+### lmdb-cursor-renew
 
 ```
 (lmdb-cursor-renew ...)
@@ -294,7 +294,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-cursor-get
+### lmdb-cursor-get
 
 ```
 (lmdb-cursor-get ...)
@@ -303,7 +303,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-cursor-put
+### lmdb-cursor-put
 
 ```
 (lmdb-cursor-put ...)
@@ -312,7 +312,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-cursor-del
+### lmdb-cursor-del
 
 ```
 (lmdb-cursor-del ...)
@@ -321,7 +321,7 @@ Please document me!
 
 Please document me!
 
-## lmdb-cursor-count
+### lmdb-cursor-count
 
 ```
 (lmdb-cursor-count ...)
