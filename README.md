@@ -15,7 +15,7 @@ $ sudo apt install liblmdb-dev
 
 To install the package in your `$GERBIL_PATH` (`~/.gerbil` by default):
 ```shell
-$ gerbil pkg install github.com/might-gerbils/gerbil-lmdb
+$ gerbil pkg install github.com/mighty-gerbils/gerbil-lmdb
 ```
 
 ## API
