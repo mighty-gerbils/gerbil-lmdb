@@ -3,7 +3,6 @@
 ;;; LMDB wraper interface
 
 (import :gerbil/gambit
-        :std/build-config
         :std/error
         :std/os/error
         :std/text/utf8
@@ -21,8 +20,6 @@
         lmdb-get lmdb-put lmdb-del
         lmdb-cursor-open lmdb-cursor-close lmdb-cursor-renew
         lmdb-cursor-get lmdb-cursor-put lmdb-cursor-del lmdb-cursor-count)
-
-(require config-have-lmdb)
 
 (deferror-class LMDBError () lmdb-error?)
 (def (raise-lmdb-error where errno)
